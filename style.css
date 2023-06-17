@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+	margin: 10px;
+    padding: 2px;
+}
+
+body {
+    background-color: #78a8e6;
+    font-family: Calibri, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+    position: relative;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    font-size:15px;
+    background-color: #e5e5eb;
+    margin: 1em auto 1em; /* top, right and left, bottom */
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form.successForm {
+    background-color: #78a8e6;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    height: 25px;
+    width: 380px;
+    font-weight: 400 bold;
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #9b4747;
+}
+
+
+h2 {
+    margin: auto;
+    text-align: center;
+    font-weight: 400 bold;
+    font-size: 30px;
+    color: #1ff5d1;
+}
+
+span {
+    font-size: 10px;
+    color: #d36a6a;
+}
+
+em {
+    font-size: 12px;
+    color: #d36a6a;
+}
+  
+.form-group {
+    margin-top: 0px !important;
+    margin-bottom: 0px!important; 
+    }
+
+.valid {
+    border-color: #4eca64;
+    border-radius: 3px;
+}
+
+.sucessIcon{
+    background-image: url('imagenes/success-icon.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 320px;
+    background-position-y: 10px;
+}
+
+.invalid {
+    border-color: #db5a5a;
+    border-radius: 3px;
+}
+
+.errorIcon{
+    background-image: url('imagenes/error-icon.svg') !important;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 320px;
+    background-position-y: 10px;
+}
+
+.text-center {
+    text-align: center;
+  }
+
+table {
+    margin: auto;
+    width: 90%;
+    color: var(--white);
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+.table-dark {
+    color: #ffffff;
+    background-color: #19686f;
+}
+
+
+/* 
+thead tr {
+    border-bottom: 1px solid var(--primary);
+}
+
+table th{
+    font-weight: bold;
+    color: var(--primary)!important;
+    padding-bottom:7px;
+}
+
+tbody tr:nth-child(even) {
+    background: var(--bg-dark)
+}
+
+tbody tr:nth-child(odd) {
+    background: var(--bg-light)
+} */
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bg-light);
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    padding: 20px 40px 20px 40px;
+    min-width: 280px; /*Para pantallas peque as ignorar el width:20%*/
+    text-align:center;
+}
+
+.divError {
+    margin:auto;
+    width:50%;
+    color: var(--error);
+    border: 2px solid red;
+    text-align: center;
+}
+
+.btn-primary {
+    font-size: 15px;
+}
