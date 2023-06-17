@@ -20,7 +20,7 @@ The application have different parts:
      - Performs a validation of the entries redundantly to the client side.
      - Attempts to make the connection to the DDBB.
      - If the connection is successful, it checks if the requested email has already been registered, if so, it cancels the registration.
-         - If the requested email does not exist, it registers the new user in the DDBB table 'USUARIO' and displays the content of the file 'success.html'.
+         - If the requested email does not exist, it registers the new user in the DDBB table 'USUARIO' and displays the content of the file [index2.html](https://github.com/Cristina-Sa/FullStack_Project/index2.html).
          - If the requested email already exit in the DDBB, it displays an alert and sends to index2.html which is a page almost equal to the registration form but adding the possibility to consulting the data of the registered users.
          - If there are any errors in the connection, it displays the error and come back to the registration form.
       
