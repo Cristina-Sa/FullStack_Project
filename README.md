@@ -37,6 +37,13 @@ The application have different parts:
   - [dataConfig.php](https://github.com/Cristina-Sa/FullStack_Project/dataConfig.php): PHP document that contains the needed info to connect to the DDBB.
   - [functions.php](https://github.com/Cristina-Sa/FullStack_Project/functions.php): PHP document that collects some useful functions.
  
+------
+Application screenshots:
+
+![RegistrationForm](https://github.com/Cristina-Sa/FullStack_Project/blob/main/imagenes/RegistrationForm%20Visualization.png)
+![ShowDDBB](https://github.com/Cristina-Sa/FullStack_Project/blob/main/imagenes/ShowDDBB.png)
+
+ 
 
 
 
