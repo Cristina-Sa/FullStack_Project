@@ -24,7 +24,7 @@ form {
     cursor: pointer;
 }
 
-form.successForm {
+form.sendedForm {
     background-color: #78a8e6;
 }
 
@@ -39,7 +39,6 @@ h1 {
     font-size: 25px;
     color: #9b4747;
 }
-
 
 h2 {
     margin: auto;
@@ -105,46 +104,6 @@ table {
 .table-dark {
     color: #ffffff;
     background-color: #19686f;
-}
-
-
-/* 
-thead tr {
-    border-bottom: 1px solid var(--primary);
-}
-
-table th{
-    font-weight: bold;
-    color: var(--primary)!important;
-    padding-bottom:7px;
-}
-
-tbody tr:nth-child(even) {
-    background: var(--bg-dark)
-}
-
-tbody tr:nth-child(odd) {
-    background: var(--bg-light)
-} */
-
-.container {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--bg-light);
-    border: 2px solid var(--primary);
-    border-radius: 5px;
-    padding: 20px 40px 20px 40px;
-    min-width: 280px; /*Para pantallas peque as ignorar el width:20%*/
-    text-align:center;
-}
-
-.divError {
-    margin:auto;
-    width:50%;
-    color: var(--error);
-    border: 2px solid red;
-    text-align: center;
 }
 
 .btn-primary {

@@ -154,19 +154,13 @@ function validatePassword() {
     }
 }
 
-// function borderButton(){
-// 	var borderButton = document.getElementById('button');
-// 	    borderButton.onmouseover =() => {borderButton.classList.add('borderColor'); }
-// 	    borderButton.onmouseout =() => {borderButton.classList.remove('borderColor'); }
-// }
-
 function alert_text() {
     return alert("Los datos de la inscripción son correctos.");
 }
 
 function validateForm() {
     if (validateName() && validate1surname() && validate2surname() && validateEmail() && validateLogin()  && validatePassword()) {
-        // alert_text()
+        alert_text()
         return true
     }
 
