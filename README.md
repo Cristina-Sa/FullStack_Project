@@ -14,7 +14,7 @@ The application have different parts:
    - [index.html](https://github.com/Cristina-Sa/FullStack_Project/blob/main/index.html): HTML document with the content of the registration form.
    - [style.css](https://github.com/Cristina-Sa/FullStack_Project/blob/main/style.css): Cascading Style Sheet document that styles HTML documents and user input based on the validation result.
    - [index.js](https://github.com/Cristina-Sa/FullStack_Project/blob/main/index.js): JavaScript document that executes the validation functions of the user's entries at client level.
-   - [images](https://github.com/Cristina-Sa/FullStack_Project/blob/main/images): Directory containing the images (icons) for the graphic decoration resulting from the validation of the entries.
+   - [images](https://github.com/Cristina-Sa/FullStack_Project/blob/main/imagenes): Directory containing the images (icons) for the graphic decoration resulting from the validation of the entries.
    - [RegistrationForm.php](https://github.com/Cristina-Sa/FullStack_Project/blob/main/RegistrationForm.php): PHP document containing the code necessary for the database connection. It performs the following tasks:
      - Collects the form data
      - Performs a validation of the entries redundantly to the client side.
