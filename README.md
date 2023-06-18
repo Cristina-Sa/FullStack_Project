@@ -24,7 +24,7 @@ The application have different parts:
          - If the requested email already exits in the DDBB, it displays an alert and sends to [index2.html](https://github.com/Cristina-Sa/FullStack_Project/blob/main/index2.html) which is a page almost as the registration form but adding the possibility of consulting the data of the registered users.
          - If there are any errors in the connection, it displays the error and come back to the registration form.
       
-2. Second part: **After a successful registration it is established**
+2. Second part: **After a successful registration**
 
    - [getUsers.html](https://github.com/Cristina-Sa/FullStack_Project/blob/main/getUsers.html): HTML document that is displayed inside subscribe.php when the registration is successful, and enables 2 option:
       - Come back to the registration form in order to register another user.
